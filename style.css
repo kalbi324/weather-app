@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   background-color: rgb(75, 14, 75);
+}
+ul{
+    background: #fa0606;
+    list-style-type: none;
+    padding: 20px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li a{
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+}
+li a:hover{
+    color: rgb(24, 23, 23);
+}
+marquee{
+    background-color: #fa0606;
+    margin: 0;
+    padding: 2px;
+}
+.container{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.QRJ4c-1ZA9HbI9y4nK7LswHaFj&pid=Api&P=0&h=220");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container h2{
+    font-size: 2rem;
+    padding: 20px;
+    color: goldenrod;
+    text-align: center;
+}
+.container img{
+    width: 75%;
+    margin-left: 10%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px black;
+}
+.container h3{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(5, 30, 255);
+    margin-top: 10px;
+}
+ .container p{
+    width: 500px;
+    margin-left: 100px;
+    font-size: 14px;
+    font-style: italic;
+    padding: 20px;
+    margin-top: 7px;
+    color: black;
+    
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+}
+.container p span{
+    color: rgb(234, 0, 255);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    
+}
+.footer-container{
+    background-color: #333;
+}
+.footer-container{
+    width: 100%;
+    padding: 30px 20px 10px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icons a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 50%;
+}
+.social-icons a i{
+    font-size: 1em;
+    color: black;
+    opacity: 0.9;
+}
+.social-icons a:hover{
+    background-color: #333;
+    transition: 1.9;
+}
+.social-icons a:hover i{
+    color: white;
+    transition: 1.6;
+}
+.footer{
+    color: white;
+    text-align: center;
+    padding: 14px;
+    font-style: italic;
+}
+
+.kalbi{
+    color: rgb(209, 255, 5);
+    font-weight: 800;
+    font-style: italic;
+}
